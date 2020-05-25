@@ -1,100 +1,143 @@
 <!DOCTYPE html>
+<html>
 <head>
     <!-- <link href="styles/reset.css" rel="stylesheet"> -->
-    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/style.css" type="text/css" rel="stylesheet">
     <title>bash.it_crazy</title>
 </head>
-<body>
-  <img src="images/profile.jpg">
-  <h3>by SQK2J</h3>
 
-  <h1>bash.it_crazy</h1>
-  <p>My on-going collection of Web Development Notes.<br><br>
+<body>
+  <header>
+    <img src="images/profile.jpg">
+    <h3>by SQK2J</h3>
+
+    <h1>bash.it_crazy</h1>
+    <p>My on-going collection of Web Development Notes.<br><br>
     A glimpse into the madness and my attempt at making sense of this insanity.<br><br>
     Proceed with caution.</p>
-  
-  <h2>Language Directory</h2>
-  <ol>
-    <li><a href="#cl-notes">Command Line</a></li>
-    <li><a href="#html-notes">HTML</a></li>
-    <li><a href="#css-notes">CSS</a></li>
-    <li><a href="#js-notes">JavaScript</a></li>
-    <li><a href="python-notes">Python</a></li>
-  </ol>
+  </header>
+ 
+  <main>
+  <nav>
+    <h2>Language Directory</h2>
+    <ol>
+      <li><a href="#cl-notes">Command Line</a></li>
+      <li><a href="#html-notes">HTML</a></li>
+      <li><a href="#css-notes">CSS</a></li>
+      <li><a href="#js-notes">JavaScript</a></li>
+      <li><a href="python-notes">Python</a></li>
+    </ol>
+  </nav>
 
   <!-- COMMAND LINE NOTES-->
-  <h2 id="cl-notes">Command-Line</h2>
-  <ol id="cl-contents">
-    <li><a href="#cl-intro">Intro</a></li>
-    <li><a href="#cl-nav-commands">Navigating Filesystem: Common Commands</a></li>
-    <li><a href="#cl-options">Optioms</a></li>
-  </ol>
+  <section id="command-line-section">
+    <h2 id="cl-notes">Command-Line</h2>
+    <nav id="cl-contents">
+      <li><a href="#cl-intro">Intro</a></li>
+      <li><a href="#cl-nav-commands">Navigating Filesystem: Common Commands</a></li>
+      <li><a href="#cl-options">Optioms</a></li>
+    </nav>
 
-  <h3 id="cl-intro">1. Intro</h3>
-    <p>The command line is a text interface for your computer. 
-      <br>
-      It is a program that takes in commands, passing them along to the computer's operating system to run.
-      <br>
-      You can run programs, scripts to automate tasks, and combine simple commands to handle difficult tasks.
+    <h3 id="cl-intro">1. Intro</h3>
+      <p>The command line is a text interface for your computer. 
+        <br>
+        It is a program that takes in commands, passing them along to the computer's operating system to run.
+        <br>
+        You can run programs, scripts to automate tasks, and combine simple commands to handle difficult tasks.
     </p>
 
-  <h3 id="cl-nav-commands">2. Navigating Filesystem: Common Commands</h3>
-    <ul>
-      <li> <strong>"ls"</strong>: list contents of a directory </li>
-      <li> <strong>"pwd"</strong>: print working directory</li>
-      <li> <strong>"cd"</strong>: change directory</li>
-      <li> <strong>"cd .."</strong> : move up one directory</li>
-      <li> <strong>"mkdir"</strong>: create a mew directory</li>
-      <li> <strong>"touch"</strong>: creates a new file inside working directory</li>
-    </ul>
-
-  <h3 id="cl-options">3. Options</h3>
-    <p>Options modify the behavior of commands.</p>
-    <p>ex. <strong>"ls -a"</strong></p>
-    <ul>
-      <li><strong>"ls"</strong>: lists all files and directories in working directory</li>
-      <li><strong>"-a"</strong>: modifies behavior of <strong>"ls"</strong> to also list hidden files</li>
-    </ul>
-    <h4>a) Other <strong>"ls"</strong> Options</h4>
+    <h3 id="cl-nav-commands">2. Navigating Filesystem: Common Commands</h3>
       <ul>
-        <li><strong>"-a"</strong>: lists all contents, including hidden files & directories</li>
-        <li><strong>"-l"</strong>: lists all contents of a directory in long format</li>
-        <li><strong>"-t"</strong>: order files and directories by the time they were last modified</li>
-        <li><strong>"ls -alt"</strong>: lists all contents, including hidden files and directories, in long format, ordered by date & time they were last modified</li>
+        <li> <strong>"ls"</strong>: list contents of a directory </li>
+        <li> <strong>"pwd"</strong>: print working directory</li>
+        <li> <strong>"cd"</strong>: change directory</li>
+        <li> <strong>"cd .."</strong> : move up one directory</li>
+        <li> <strong>"mkdir"</strong>: create a mew directory</li>
+        <li> <strong>"touch"</strong>: creates a new file inside working directory</li>
       </ul>
+
+    <h3 id="cl-options">3. Options</h3>
+      <p>Options modify the behavior of commands.</p>
+      <p>ex. <strong>"ls -a"</strong></p>
+      <ul>
+        <li><strong>"ls"</strong>: lists all files and directories in working directory</li>
+        <li><strong>"-a"</strong>: modifies behavior of <strong>"ls"</strong> to also list hidden files</li>
+      </ul>
+      <h4>a) Other <strong>"ls"</strong> Options</h4>
+        <ul>
+          <li><strong>"-a"</strong>: lists all contents, including hidden files & directories</li>
+          <li><strong>"-l"</strong>: lists all contents of a directory in long format</li>
+          <li><strong>"-t"</strong>: order files and directories by the time they were last modified</li>
+          <li><strong>"ls -alt"</strong>: lists all contents, including hidden files and directories, in long format, ordered by date & time they were last modified</li>
+        </ul>
+    </section>
   
   <!--HTML NOTES-->
-  <h2 id="html-notes">HTML</h2> 
-  <ol id="html-contents"></ol>
+  <section id="html-section">
+    <h2 id="html-notes">HTML</h2> 
+    
+    <nav id="html-contents">
+      <ol>
+        <li><a href="#es-html">Elements & Structure</a></li>
+      </ol>
+    </nav>
+    
+    <article>
+      <h3 id="es-html">1. Elements & Structure</h3>
+        <h4>a) HTML = HyperText Markup Language</h4>
+        <ul>
+          <li>used to give content to web pages</li>
+          <li>used to instruct web browser on how to structure content</li>
+        </ul>
+
+        <h4>b) Element Content</h4>
+          <ul>
+            <li>content of HTML element is the information between opening and closing tags</li>
+          </ul>
+<!-- INSERT HTML ELEMENT DIAGRAM HERE -->
+
+
+    </article>
+  </section>
 
 <!--CSS NOTES-->
-  <h2 id="css-notes">CSS</h2>
-  <ol id="css-contents"></ol>
+  <section id="css-section">
+    <h2 id="css-notes">CSS</h2>
+    <ol id="css-contents"></ol>
+  </section>
 
  <!--JAVASCRIPT NOTES-->
-  <h2 id="js-notes">JavaScript</h2>
-  <ol id="js-contents"></ol>
+  <section id="js-section">
+    <h2 id="js-notes">JavaScript</h2>
+    <ol id="js-contents"></ol>
+  </section>
 
 <!--PYTHON NOTES-->
-<h2 id="python-notes">Python</h2>
-  <ol id="python-contents">
-    <li><a href="py-syntax">Syntax</a></li>
-  </ol>
+  <section id="python-section">
+    <h2 id="python-notes">Python</h2>
+      <ol id="python-contents">
+        <li><a href="py-syntax">Syntax</a></li>
+      </ol>
 
-  <h3 id="py-syntax">1. Syntax</h3>
-    <h4>a) Comments</h4>
-    <p>Python uses <strong>"#"</strong> to comment out code</p>
+    <h3 id="py-syntax">1. Syntax</h3>
+      <h4>a) Comments</h4>
+      <p>Python uses <strong>"#"</strong> to comment out code</p>
   
-  <h4>b) Print</h4>
-    <p><strong>print()</strong> is used to tell a computer to talk</p>
-    <p>The message being printed should be surrounded by quotes ("")</p>
-    <p>ex. print("This is the message to be printed.")</p>
-    <p>The words printed as a result of <strong>print()</strong> are <em>output</em></p>
+    <h4>b) Print</h4>
+      <p><strong>print()</strong> is used to tell a computer to talk</p>
+      <p>The message being printed should be surrounded by quotes ("")</p>
+      <p>ex. print("This is the message to be printed.")</p>
+      <p>The words printed as a result of <strong>print()</strong> are <em>output</em></p>
   
-  <h4>c) Strings</h4>
+    <h4>c) Strings</h4>
+  </section>
  
  
  <!--SOME MISC STUFF IDK ABOUT YET-->
   <h2>Bits n bobs</h2>
-
+<footer>
+  
+</footer>
+</main>
 </body>
+</html>
