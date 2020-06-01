@@ -1,0 +1,15 @@
+body {
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    color: rgba(62, 218, 56, 0.788);
+}
+
+.code-ex {
+    background-color: white;
+    color: black;
+}
+
