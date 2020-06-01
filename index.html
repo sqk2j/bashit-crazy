@@ -2,7 +2,9 @@
 <html>
 <head>
     <!-- <link href="styles/reset.css" rel="stylesheet"> -->
+   <!-- <link href="styles/reset.css" type="text/css" rel="stylesheet"> -->
     <link href="styles/style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
     <title>bash.it_crazy</title>
 </head>
 
@@ -30,6 +32,7 @@
   </nav>
 
   <!-- COMMAND LINE NOTES-->
+  <!-- 
   <section id="command-line-section">
     <h2 id="cl-notes">Command-Line</h2>
     <nav id="cl-contents">
@@ -71,17 +74,20 @@
           <li><strong>"ls -alt"</strong>: lists all contents, including hidden files and directories, in long format, ordered by date & time they were last modified</li>
         </ul>
     </section>
-  
+  -->
+
   <!--HTML NOTES-->
   <section id="html-section">
     <h2 id="html-notes">HTML</h2> 
     
     <nav id="html-contents">
+      <h3>Subjects</h3>
       <ol>
         <li><a href="#es-html">Elements & Structure</a></li>
       </ol>
     </nav>
     
+    <!--HTML ELEMENTS & STRUCTURES-->
     <article>
       <h3 id="es-html">1. Elements & Structure</h3>
         <h4>a) HTML = HyperText Markup Language</h4>
@@ -93,10 +99,76 @@
         <h4>b) Element Content</h4>
           <ul>
             <li>content of HTML element is the information between opening and closing tags</li>
+            <li><code>&lt;p&gt;</code> = opening tag</li>
+            <li>Hello World! = content</li>
+            <li><code>&lt;/p&gt;</code> = closing tag</li>
           </ul>
-<!-- INSERT HTML ELEMENT DIAGRAM HERE -->
 
+          <div class="code-ex">
+            <code>&lt;p&gt;Hello World!&lt;/p&gt;</code>
+          </div>
+        
+        <h4>c) HTML Tag</h4>
+          <ul>
+            <li>Syntax for single HTML tag = opening angle bracket "&lt;"
+                followed by element name and closing angle bracket "&gt;"
+            </li>
+            <li>ex. opening <code>&lt;div&gt;</code> tag</li>
+          </ul>
 
+          <div class="code-ex">
+            <code>&lt;div&gt;</code>
+          </div>
+        
+        <h4>d) Element Content</h4>
+          <ul>
+            <li>content of HTML element = information between the opening and closing tags</li>
+          </ul>
+
+          <div class="code-ex">
+            <code>&lt;h1&gt;I'm the h1 element CONTENT!&lt;/h1&gt;</code>
+          </div>
+        
+        <h4>e) Closing Tag</h4>
+          <ul>
+            <li>used to denote the end of an HTML element</li>
+            <li>syntax for closing tag is left angle brack "&lt;" followed by a forward slash 
+                "/" then the element name and a right angle bracket to close "&gt;"
+            </li>
+          </ul>
+
+          <div class="code-ex">
+            <code>&lt;body&gt;...&lt;/body&gt;</code>
+          </div>
+        
+          <table>
+            <tbody>
+              <th colspan="3">HTML ELEMENTS</th>
+              <tr>
+                <td><code>&lt;body&gt;</code></td>
+                <td>Represents content of HTML document. Content inside <code>&lt;body&gt;</code>
+                    tags rendered on web browsers
+                  <br>
+                    <strong>Note</strong>: CAN ONLY BE ONE <code>&lt;body&gt;</code> element in a document
+                  </td>
+                <td><code>&lt;/body&gt;</code></td>
+              </tr>
+              <tr>
+                <td><code>&lt;h1&gt;-&lt;h6&gt;</code></td>
+                <td>HTML can use six different levels of heading elements. Ordered from hightest level &lt;h1&gt; to lowest &lt;h6&gt;</td>
+                <td><code>&lt;/h1&gt;-&lt;/h6&gt;</code></td>
+              </tr>
+              <tr>
+                <td><code>&lt;div&gt;</code></td>
+                <td>Used as a container that divides HTML document into sections
+                  <br>
+                  <code>&lt;div&gt;</code> elements can contain <em>flow content</em> like headings, paragraphs, links, images, etc.
+                </td>
+                <td><code>&lt;/div&gt;</code></td>
+              </tr>
+            </tbody>
+          </table>
+  
     </article>
   </section>
 
@@ -135,6 +207,7 @@
  
  <!--SOME MISC STUFF IDK ABOUT YET-->
   <h2>Bits n bobs</h2>
+
 <footer>
   
 </footer>
